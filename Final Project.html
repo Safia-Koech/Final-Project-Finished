@@ -1,0 +1,56 @@
+<!DOCTYPE html><html>
+    <head>
+        <title> WEB 115 Final Project </title>
+        <style>
+            /* Apply some basic styling to the banner */
+            .banner {
+              background: linear-gradient(to right, #b996ff, #86fce5); /* Set background color */
+              color: #ffffff; /* Set text color */
+              padding: 20px; /* Add padding to the content inside the banner */
+              text-align: center; /* Center-align text */
+              font-size: 1.5em; /* Set font size */
+              font-weight: bold; /* Set font weight to bold */
+              font-family: 'Times New Roman' , sans-serif 
+            }
+            body {
+                background: linear-gradient(to right, rgb(255, 183, 250), rgb(250, 245, 97));
+                color: rgb(103, 114, 246)
+                }
+          </style>
+        </head>
+        
+        <body>
+        <div class="banner">
+            <p>Safia Koech WEB.115.0002 Build Your Meal Plan</p>
+        </div>
+        <br></br>
+        <form id = "myForm">
+        <label for="name">Enter name:</label>
+        <input type = "text" id = "name" placeholder = "Please enter your name." />
+        <br></br>
+        <label for="email">Enter your email (required):</label>
+        <input type = "text" id = "email" placeholder = "Please enter your email." />
+        <br></br>
+        <label for="goal">Enter your goal for the week:</label>
+        <input type = "text" id = "goal" placeholder = "Please enter weekly goal." required/>
+        <br></br>
+        <label for="breakfast">Enter your desired breakfast:</label>
+        <input type = "text" id = "breakfast" placeholder = "Enter your breakfast"/>
+        <br></br>
+        <label for="snack">Enter your desired snack:</label>
+        <input type = "text" id = "snack" placeholder = "Enter your snack"/>
+        <br></br>
+        <label for="lunch">Enter your desired lunch:</label>
+        <input type = "text" id = "lunch" placeholder = "Enter your lunch"/>
+        <br></br>
+        <label for="snack2">Enter your desired snack:</label>
+        <input type = "text" id = "snack2" placeholder = "Enter your snack"/>
+        <br></br>
+        <label for="dinner">Enter your desired dinner:</label>
+        <input type = "text" id = "dinner" placeholder = "Enter your dinner"/>
+        <br></br>
+        <input type = "button" id = "myButton" value = "Double Click to Create Meal Plan!">
+        </form>
+        <script src = "projectJS.js"> defer</script>
+        </body>
+</html>
